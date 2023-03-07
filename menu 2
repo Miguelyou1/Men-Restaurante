@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html lang="ES-es"> 
+    <head> 
+        <title> MENU DEL DIA </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1> MENU DEL DIA </h1>
+        <p>Aquí podremos elegir entre los distintos platos que tendremos durante el día.</p>
+        <hr>
+        <h2>TORTILLA DE PATATAS</h2>
+        <img src="https://www.recetasdesbieta.com/wp-content/uploads/2014/09/tortilla-de-patata-01.jpg">
+    </body>
+
+</html>
