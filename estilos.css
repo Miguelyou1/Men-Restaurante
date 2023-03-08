@@ -1,9 +1,75 @@
-body{
-background-color: cadetblue;
-}
-head{
-    background-color: darkorchid;
-}
-tittle{
-    font-style: inherit;
-}
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Restaurante del Mar</title>
+    <style>
+      /* Estilos para el cuerpo */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #F5F5F5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Estilos para el encabezado */
+      header {
+        background-color: #F9A602;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      /* Estilos para el título del encabezado */
+      h1 {
+        margin: 0;
+        font-size: 3rem;
+        color: #FFF;
+      }
+      
+      /* Estilos para el menú */
+      nav {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      /* Estilos para los enlaces del menú */
+      nav a {
+        color: #FFF;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      /* Estilos para el contenido principal */
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      /* Estilos para las secciones */
+      section {
+        margin-bottom: 20px;
+      }
+      
+      /* Estilos para los títulos de sección */
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #F9A602;
+      }
+      
+      /* Estilos para las imágenes */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Estilos para el pie de página */
+      footer {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+      }
