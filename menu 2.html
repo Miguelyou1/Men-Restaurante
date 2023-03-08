@@ -3,6 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <title>Menú diario - Restaurante BOU</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      .menu-item {
+              display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+      }
+      .menu-item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .menu-item h2 {
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+      }
+      .menu-item p {
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        color: #888;
+      }
+      .menu-item span {
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -13,6 +61,8 @@
       <p>Este es el menú que ofrecemos hoy:</p>
       <section>
         <h3>Entrante</h3>
+        <div class="container">
+          <div class="menu-item">
         <p>Ensalada de temporada</p>
         <img src="https://static.elnortedecastilla.es/www/multimedia/202107/15/media/cortadas/ensalada-kFsH-RhnPNSJpvO1mhxTheSkAmDP-624x385@El%20Norte.jpg">
       </section>
